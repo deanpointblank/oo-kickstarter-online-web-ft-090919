@@ -8,7 +8,7 @@ class Backer
   end
   
   def back_project(project)
-    if ba
+    if @
     @backed_projects << project
     project.add_backer(self)
   end
